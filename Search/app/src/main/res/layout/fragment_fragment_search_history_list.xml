@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.search.fragment.FragmentSearchHistoryList">
+
+    <TextView
+        android:id="@+id/search_tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#999999"
+        android:text="搜索历史记录"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="12dp"
+        />
+    <View
+        android:id="@+id/spacing"
+        android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:layout_below="@id/search_tips"
+        android:background="#999999"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/history_search_list"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@id/spacing"
+        />
+</RelativeLayout>

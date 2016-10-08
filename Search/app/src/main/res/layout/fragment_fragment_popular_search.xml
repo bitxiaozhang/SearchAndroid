@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.search.fragment.FragmentPopularSearch">
+<LinearLayout
+    android:id="@+id/popular_labels"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+</LinearLayout>
+    <Button
+        android:id="@+id/change_datas_button"
+        android:layout_height="32dp"
+        android:layout_width="72dp"
+        android:layout_below="@id/popular_labels"
+        android:text="换一换"
+        android:textSize="14sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPopularSearchButton"
+        android:background="@drawable/shape_search_popular_button_label_hollow"
+        />
+</RelativeLayout>

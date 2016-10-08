@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_search_event">SearchEventActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_timer_list_view">TimerListViewActivity</string>
+
+    <string name="title_activity_percent_layout_acitivty">PercentLayoutAcitivty</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

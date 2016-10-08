@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.search.activity.MobSMSActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="获取验证码"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:onClick="getSMS"
+       />
+    <com.search.widget.BrandTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1234567890"
+        android:textSize="80dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        />
+</LinearLayout>

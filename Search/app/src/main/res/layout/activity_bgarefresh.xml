@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.bingoogolapple.refreshlayout.BGARefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_modulename_refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    <!-- 内容控件 -->
+</cn.bingoogolapple.refreshlayout.BGARefreshLayout>

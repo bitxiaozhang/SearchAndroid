@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.search">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.SearchEventActivity"
+            android:label="@string/title_activity_search_event"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".activity.TimerListViewActivity"
+            android:label="@string/title_activity_timer_list_view"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".activity.CustomDrawActivity"></activity>
+        <activity android:name=".activity.BGARefreshActivity"></activity>
+        <activity
+            android:name=".activity.PercentLayoutAcitivty"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_percent_layout_acitivty"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity android:name=".activity.QRCodeActivity"></activity>
+        <activity android:name=".activity.WatchViewActivity"></activity>
+        <activity android:name=".activity.MobSMSActivity"></activity>
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name=".activity.SlideLockActivity"></activity>
+    </application>
+
+</manifest>
